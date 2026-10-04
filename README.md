@@ -5,7 +5,7 @@ PriceHunt is a web-based price tracking and comparison system that helps users f
 The project uses web scraping and automated price analysis to compare prices and identify the most affordable available option. It can also monitor prices and notify users when a product reaches their specified price limit.
 
 
-🚀 Features
+#🚀 Features
 
 🔎 Product price scraping from multiple e-commerce websites
 
@@ -24,7 +24,7 @@ The project uses web scraping and automated price analysis to compare prices and
 📈 Helps users track product price changes
 
 
-🛠️ Technologies Used
+#🛠️ Technologies Used
 
 Frontend
 HTML
@@ -41,7 +41,7 @@ Database Manager
 Alert Manager
 
 
-🔄 Project Workflow
+#🔄 Project Workflow
 
 User enters product URL
         ↓
@@ -62,7 +62,7 @@ Send notification if condition is met
 Display results to the user
 
 
-💡 How It Works
+#💡 How It Works
 
 The user provides a product URL.
 The system identifies the required product information.
@@ -72,7 +72,7 @@ The system displays the available options and highlights the lower price.
 Users can set a desired price limit for tracking.
 When the price reaches the specified limit, the notification system can alert the user.
 
-📁 Project Modules
+#📁 Project Modules
 
 Module	Purpose
 Scraper Engine	Extracts product and price information
@@ -82,12 +82,12 @@ Database Manager	Manages stored product and price data
 Alert Manager	Monitors user-defined price limits
 
 
-🎯 Objective
+#🎯 Objective
 
 The main objective of PriceHunt is to automate online price comparison and price tracking, saving users time and helping them make better purchasing decisions by finding competitive prices across multiple e-commerce platforms.
 
 
-🔮 Future Scope
+#🔮 Future Scope
 
 Support for more e-commerce websites
 Historical price charts
