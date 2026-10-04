@@ -1,98 +1,84 @@
-# Web Scraping
+# PriceHunt 🛒 💰 🔍
 
-PriceHunt is a web-based price tracking and comparison system that helps users find better deals across multiple e-commerce platforms. Users can enter a product URL, and the system collects product and price information from platforms such as Amazon, Flipkart, Myntra, Meesho, and other supported websites.
+## Smart E-Commerce Price Comparison & Tracking Platform
 
-The project uses web scraping and automated price analysis to compare prices and identify the most affordable available option. It can also monitor prices and notify users when a product reaches their specified price limit.
+**A Web Scraping & Price Intelligence System for Finding Better Deals Across Multiple E-Commerce Platforms**
 
+---
 
-#🚀 Features
+## 🌟 Overview
 
-🔎 Product price scraping from multiple e-commerce websites
+**PriceHunt** is a web-based price comparison and tracking platform designed to help users find the best available deals across multiple e-commerce websites.
 
-💰 Real-time price comparison
+Instead of manually checking different platforms, PriceHunt automatically collects product and pricing information through web scraping, analyzes the available prices, and presents the user with the most affordable option.
 
-📊 Identifies the cheapest available option
+The platform combines **web scraping, automated price analysis, and price alerts** to make online shopping faster, smarter, and more convenient.
 
-🔔 Price-limit alerts and notifications
+### 🎯 What PriceHunt Does
 
-🌐 Simple and user-friendly web interface
+- 🔎 **Product Price Scraping:** Extracts product information and prices from supported e-commerce platforms.
+- 💰 **Price Comparison:** Compares prices across multiple platforms to identify better deals.
+- 🏆 **Best Deal Detection:** Highlights the platform offering the lowest available price.
+- 🔔 **Price Limit Alerts:** Allows users to define a target price and receive an alert when the product reaches it.
+- ⚡ **Automated Monitoring:** Reduces the need for users to repeatedly check product prices manually.
 
-⚙️ Automated scraping and price analysis
+---
 
-🛒 Supports multiple e-commerce platforms
+## 🚀 Key Features
 
-📈 Helps users track product price changes
+### 🔍 Multi-Platform Price Scraping
+Automatically collects product and pricing information from multiple e-commerce platforms such as:
 
+- Amazon
+- Flipkart
+- Myntra
+- Meesho
+- And other supported platforms
 
-#🛠️ Technologies Used
+### 💰 Intelligent Price Comparison
+PriceHunt analyzes the collected data and compares prices to help users quickly identify the most economical option.
 
-Frontend
-HTML
-CSS
-JavaScript
-Backend
-Node.js
-Web Scraping
-Core Components
-Scraper Engine
-Price Analyzer
-Notification Engine
-Database Manager
-Alert Manager
+### 📊 Price Analysis
+The **Price Analyzer** processes scraped information and determines the best available deal based on product prices.
 
+### 🔔 Smart Price Alerts
+Users can set a desired price limit for a product. The system monitors the price and can notify the user when the specified condition is satisfied.
 
-#🔄 Project Workflow
+### ⚙️ Automated Workflow
+The complete process—from scraping to comparison and alert generation—is designed to minimize manual effort.
 
-User enters product URL
-        ↓
-Scraper Engine
-        ↓
-Extract product & price data
-        ↓
-Price Analyzer
-        ↓
-Compare prices across platforms
-        ↓
-Find the best/cheapest option
-        ↓
-Check user's price limit
-        ↓
-Send notification if condition is met
-        ↓
-Display results to the user
+### 🖥️ User-Friendly Interface
+A clean web interface allows users to enter product information, view comparison results, and manage price tracking easily.
 
+---
 
-#💡 How It Works
+## 🔄 System Workflow
 
-The user provides a product URL.
-The system identifies the required product information.
-Web scraping extracts available product and pricing data.
-Prices from different platforms are analyzed and compared.
-The system displays the available options and highlights the lower price.
-Users can set a desired price limit for tracking.
-When the price reaches the specified limit, the notification system can alert the user.
-
-#📁 Project Modules
-
-Module	Purpose
-Scraper Engine	Extracts product and price information
-Price Analyzer	Compares prices from different platforms
-Notification Engine	Handles price alerts
-Database Manager	Manages stored product and price data
-Alert Manager	Monitors user-defined price limits
-
-
-#🎯 Objective
-
-The main objective of PriceHunt is to automate online price comparison and price tracking, saving users time and helping them make better purchasing decisions by finding competitive prices across multiple e-commerce platforms.
-
-
-#🔮 Future Scope
-
-Support for more e-commerce websites
-Historical price charts
-User accounts and personalized watchlists
-Email and mobile notifications
-Improved automated scraping
-Price prediction using machine learning
-Browser extension for instant price comparison
+```text
+                👤 User
+                  │
+                  ▼
+        🔗 Enter Product URL
+                  │
+                  ▼
+          🕷️ Scraper Engine
+                  │
+                  ▼
+       📦 Product & Price Data
+                  │
+                  ▼
+          📊 Price Analyzer
+                  │
+          ┌───────┴────────┐
+          ▼                ▼
+   💰 Price Comparison   📈 Price Tracking
+          │                │
+          └───────┬────────┘
+                  ▼
+           🏆 Best Deal
+                  │
+                  ▼
+        🔔 Price Limit Check
+                  │
+                  ▼
+          📢 User Notification
